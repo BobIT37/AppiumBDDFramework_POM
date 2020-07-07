@@ -1,0 +1,6 @@
+[iOS_iPhone 11 INFO ] 2020-07-07 14:11:29.178 ServerManager:21 - starting appium server
+[iOS_iPhone 11 INFO ] 2020-07-07 14:11:30.913 ServerManager:30 - Appium server started
+[iOS_iPhone 11 INFO ] 2020-07-07 14:11:30.949 DriverManager:29 - initializing Appium driver
+[iOS_iPhone 11 INFO ] 2020-07-07 14:11:30.967 PropertyManager:18 - loading config properties
+[iOS_iPhone 11 INFO ] 2020-07-07 14:11:30.969 CapabilitiesManager:19 - getting capabilities
+[iOS_iPhone 11 INFO ] 2020-07-07 14:11:30.971 CapabilitiesManager:43 - appUrl is/Users/bobit/IdeaProjects/AppiumBDDFramework/src/test/resources/apps/SwagLabsMobileApp.app

@@ -1,0 +1,7 @@
+com/qa/utils/PropertyManager.class
+com/qa/utils/DriverManager.class
+com/qa/utils/GlobalParams.class
+com/qa/utils/TestUtils.class
+com/qa/utils/VideoManager.class
+com/qa/utils/ServerManager.class
+com/qa/utils/CapabilitiesManager.class

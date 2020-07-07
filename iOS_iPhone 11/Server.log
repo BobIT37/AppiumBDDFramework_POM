@@ -1,0 +1,173 @@
+2020-07-07 18:11:30:842 [Appium] Welcome to Appium v1.17.1
+2020-07-07 18:11:30:843 [Appium] Non-default server args:
+2020-07-07 18:11:30:844 [Appium]   port: 35863
+2020-07-07 18:11:30:844 [Appium]   sessionOverride: true
+2020-07-07 18:11:30:844 [Appium]   logFile: /Users/bobit/IdeaProjects/AppiumBDDFramework/iOS_iPhone 11/Server.log
+2020-07-07 18:11:30:862 [Appium] Appium REST http interface listener started on 0.0.0.0:35863
+2020-07-07 18:11:30:894 [HTTP] --> GET /wd/hub/status
+2020-07-07 18:11:30:895 [HTTP] {}
+2020-07-07 18:11:30:896 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2020-07-07 18:11:30:898 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.17.1"}}
+2020-07-07 18:11:30:903 [HTTP] <-- GET /wd/hub/status 200 6 ms - 68
+2020-07-07 18:11:30:904 [HTTP] 
+2020-07-07 18:11:30:908 [HTTP] --> GET /wd/hub/status
+2020-07-07 18:11:30:908 [HTTP] {}
+2020-07-07 18:11:30:909 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2020-07-07 18:11:30:910 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.17.1"}}
+2020-07-07 18:11:30:911 [HTTP] <-- GET /wd/hub/status 200 3 ms - 68
+2020-07-07 18:11:30:920 [HTTP] 
+2020-07-07 18:11:31:255 [HTTP] --> POST /wd/hub/session
+2020-07-07 18:11:31:255 [HTTP] {"desiredCapabilities":{"app":"/Users/bobit/IdeaProjects/AppiumBDDFramework/src/test/resources/apps/SwagLabsMobileApp.app","webkitDebugProxyPort":"11003","automationName":"XCUITest","bundleId":"org.askomdch.SwagLabMobileApp","platformName":"iOS","udid":"D9B2EF26-6BFD-45D3-B1B6-CA243600FF10","deviceName":"iPhone 11","wdaLocalPort":"10002"},"capabilities":{"firstMatch":[{"appium:app":"/Users/bobit/IdeaProjects/AppiumBDDFramework/src/test/resources/apps/SwagLabsMobileApp.app","appium:automationName":"XCUITest","appium:bundleId":"org.askomdch.SwagLabMobileApp","appium:deviceName":"iPhone 11","platformName":"ios","appium:udid":"D9B2EF26-6BFD-45D3-B1B6-CA243600FF10","appium:wdaLocalPort":"10002","webkitDebugProxyPort":"11003"}]}}
+2020-07-07 18:11:31:256 [W3C] Calling AppiumDriver.createSession() with args: [{"app":"/Users/bobit/IdeaProjects/AppiumBDDFramework/src/test/resources/apps/SwagLabsMobileApp.app","webkitDebugProxyPort":"11003","automationName":"XCUITest","bundleId":"org.askomdch.SwagLabMobileApp","platformName":"iOS","udid":"D9B2EF26-6BFD-45D3-B1B6-CA243600FF10","deviceName":"iPhone 11","wdaLocalPort":"10002"},null,{"firstMatch":[{"appium:app":"/Users/bobit/IdeaProjects/AppiumBDDFramework/src/test/resources/apps/SwagLabsMobileApp.app","appium:automationName":"XCUITest","appium:bundleId":"org.askomdch.SwagLabMobileApp","appium:deviceName":"iPhone 11","platformName":"ios","appium:udid":"D9B2EF26-6BFD-45D3-B1B6-CA243600FF10","appium:wdaLocalPort":"10002","webkitDebugProxyPort":"11003"}]}]
+2020-07-07 18:11:31:256 [BaseDriver] Event 'newSessionRequested' logged at 1594145491256 (14:11:31 GMT-0400 (Eastern Daylight Time))
+2020-07-07 18:11:31:259 [BaseDriver] The following capabilities are not standard capabilities and should have an extension prefix:
+2020-07-07 18:11:31:259 [BaseDriver]   webkitDebugProxyPort
+2020-07-07 18:11:31:881 [Appium] Appium v1.17.1 creating new XCUITestDriver (v3.22.0) session
+2020-07-07 18:11:31:881 [Appium] There are no active sessions for cleanup
+2020-07-07 18:11:31:883 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2020-07-07 18:11:31:883 [BaseDriver] Creating session with W3C capabilities: {
+2020-07-07 18:11:31:883 [BaseDriver]   "alwaysMatch": {
+2020-07-07 18:11:31:883 [BaseDriver]     "platformName": "ios",
+2020-07-07 18:11:31:883 [BaseDriver]     "appium:webkitDebugProxyPort": "11003",
+2020-07-07 18:11:31:883 [BaseDriver]     "appium:app": "/Users/bobit/IdeaProjects/AppiumBDDFramework/src/test/resources/apps/SwagLabsMobileApp.app",
+2020-07-07 18:11:31:884 [BaseDriver]     "appium:automationName": "XCUITest",
+2020-07-07 18:11:31:884 [BaseDriver]     "appium:bundleId": "org.askomdch.SwagLabMobileApp",
+2020-07-07 18:11:31:884 [BaseDriver]     "appium:deviceName": "iPhone 11",
+2020-07-07 18:11:31:884 [BaseDriver]     "appium:udid": "D9B2EF26-6BFD-45D3-B1B6-CA243600FF10",
+2020-07-07 18:11:31:884 [BaseDriver]     "appium:wdaLocalPort": "10002"
+2020-07-07 18:11:31:884 [BaseDriver]   },
+2020-07-07 18:11:31:884 [BaseDriver]   "firstMatch": [
+2020-07-07 18:11:31:884 [BaseDriver]     {}
+2020-07-07 18:11:31:885 [BaseDriver]   ]
+2020-07-07 18:11:31:885 [BaseDriver] }
+2020-07-07 18:11:31:887 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2020-07-07 18:11:31:887 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2020-07-07 18:11:31:889 [BaseDriver] Capability 'wdaLocalPort' changed from string ('10002') to integer (10002). This may cause unexpected behavior
+2020-07-07 18:11:31:889 [BaseDriver] Capability 'webkitDebugProxyPort' changed from string ('11003') to integer (11003). This may cause unexpected behavior
+2020-07-07 18:11:31:891 [XCUITest] 'platformVersion' capability ('undefined') is not a valid version number. Consider fixing it or be ready to experience an inconsistent driver behavior.
+2020-07-07 18:11:31:892 [BaseDriver] Session created with session id: 3ea88d82-8846-4884-8047-e9e830058fc3
+2020-07-07 18:11:31:903 [XCUITest] Current user: 'bobit'
+2020-07-07 18:11:31:913 [XCUITest] Available devices: 
+2020-07-07 18:11:31:914 [XCUITest] No real device with udid 'D9B2EF26-6BFD-45D3-B1B6-CA243600FF10'. Looking for simulator
+2020-07-07 18:11:32:041 [iOSSim] Constructing iOS simulator for Xcode version 11.5 with udid 'D9B2EF26-6BFD-45D3-B1B6-CA243600FF10'
+2020-07-07 18:11:32:042 [XCUITest] Determining device to run tests on: udid: 'D9B2EF26-6BFD-45D3-B1B6-CA243600FF10', real device: false
+2020-07-07 18:11:32:138 [XCUITest] No platformVersion specified. Using device version: '13.5'
+2020-07-07 18:11:32:140 [BaseDriver] Event 'xcodeDetailsRetrieved' logged at 1594145492140 (14:11:32 GMT-0400 (Eastern Daylight Time))
+2020-07-07 18:11:32:142 [BaseDriver] Using local app '/Users/bobit/IdeaProjects/AppiumBDDFramework/src/test/resources/apps/SwagLabsMobileApp.app'
+2020-07-07 18:11:32:142 [BaseDriver] Event 'appConfigured' logged at 1594145492142 (14:11:32 GMT-0400 (Eastern Daylight Time))
+2020-07-07 18:11:32:143 [XCUITest] Checking whether app '/Users/bobit/IdeaProjects/AppiumBDDFramework/src/test/resources/apps/SwagLabsMobileApp.app' is actually present on file system
+2020-07-07 18:11:32:143 [XCUITest] App is present
+2020-07-07 18:11:32:143 [BaseDriver] Event 'resetStarted' logged at 1594145492143 (14:11:32 GMT-0400 (Eastern Daylight Time))
+2020-07-07 18:11:32:321 [XCUITest] Not scrubbing third party app in anticipation of uninstall
+2020-07-07 18:11:32:321 [BaseDriver] Event 'resetComplete' logged at 1594145492321 (14:11:32 GMT-0400 (Eastern Daylight Time))
+2020-07-07 18:11:32:416 [IOSSimulatorLog] Starting log capture for iOS Simulator with udid 'D9B2EF26-6BFD-45D3-B1B6-CA243600FF10' using simctl
+2020-07-07 18:11:32:568 [BaseDriver] Event 'logCaptureStarted' logged at 1594145492567 (14:11:32 GMT-0400 (Eastern Daylight Time))
+2020-07-07 18:11:32:568 [XCUITest] Setting up simulator
+2020-07-07 18:11:32:568 [iOS] No reason to set locale
+2020-07-07 18:11:32:569 [iOS] No iOS / app preferences to set
+2020-07-07 18:11:32:569 [iOS] Setting did not need to be updated
+2020-07-07 18:11:32:570 [iOSSim] Setting preferences of D9B2EF26-6BFD-45D3-B1B6-CA243600FF10 Simulator to {"ConnectHardwareKeyboard":false}
+2020-07-07 18:11:32:570 [iOSSim] Setting common Simulator preferences to {"RotateWindowWhenSignaledByGuest":true,"ConnectHardwareKeyboard":false}
+2020-07-07 18:11:32:586 [iOSSim] Updated D9B2EF26-6BFD-45D3-B1B6-CA243600FF10 Simulator preferences at '/Users/bobit/Library/Preferences/com.apple.iphonesimulator.plist' with {"DevicePreferences":{"D9B2EF26-6BFD-45D3-B1B6-CA243600FF10":{"ConnectHardwareKeyboard":false}},"RotateWindowWhenSignaledByGuest":true,"ConnectHardwareKeyboard":false}
+2020-07-07 18:11:32:716 [iOSSim] Got Simulator UI client PID: 65427
+2020-07-07 18:11:32:716 [iOSSim] Both Simulator with UDID 'D9B2EF26-6BFD-45D3-B1B6-CA243600FF10' and the UI client are currently running
+2020-07-07 18:11:32:716 [BaseDriver] Event 'simStarted' logged at 1594145492716 (14:11:32 GMT-0400 (Eastern Daylight Time))
+2020-07-07 18:11:32:717 [XCUITest] Verifying application platform
+2020-07-07 18:11:32:720 [XCUITest] CFBundleSupportedPlatforms: ["iPhoneSimulator"]
+2020-07-07 18:11:32:835 [simctl] simctl error running 'get_app_container': An error was encountered processing the command (domain=NSPOSIXErrorDomain, code=2):
+2020-07-07 18:11:32:835 [simctl] The operation couldn’t be completed. No such file or directory
+2020-07-07 18:11:32:835 [simctl] No such file or directory
+2020-07-07 18:11:32:930 [XCUITest] Installing '/Users/bobit/IdeaProjects/AppiumBDDFramework/src/test/resources/apps/SwagLabsMobileApp.app' on Simulator with UUID 'D9B2EF26-6BFD-45D3-B1B6-CA243600FF10'...
+2020-07-07 18:11:33:324 [XCUITest] The app has been installed successfully.
+2020-07-07 18:11:33:324 [BaseDriver] Event 'appInstalled' logged at 1594145493324 (14:11:33 GMT-0400 (Eastern Daylight Time))
+2020-07-07 18:11:33:325 [WebDriverAgent] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent'
+2020-07-07 18:11:33:325 [WebDriverAgent] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+2020-07-07 18:11:33:432 [WebDriverAgent] No obsolete cached processes from previous WDA sessions listening on port 10002 have been found
+2020-07-07 18:11:33:432 [DevCon Factory] Requesting connection for device D9B2EF26-6BFD-45D3-B1B6-CA243600FF10 on local port 10002, device port 10002
+2020-07-07 18:11:33:432 [DevCon Factory] Cached connections count: 0
+2020-07-07 18:11:33:433 [DevCon Factory] Successfully requested the connection for D9B2EF26-6BFD-45D3-B1B6-CA243600FF10:10002
+2020-07-07 18:11:33:434 [XCUITest] Starting WebDriverAgent initialization with the synchronization key 'XCUITestDriver'
+2020-07-07 18:11:33:435 [WD Proxy] Matched '/status' to command name 'getStatus'
+2020-07-07 18:11:33:436 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:10002/status] with no body
+2020-07-07 18:11:36:452 [WD Proxy] Got response with unknown status: {"code":"ESOCKETTIMEDOUT","connect":false}
+2020-07-07 18:11:36:453 [WebDriverAgent] WDA is not listening at 'http://127.0.0.1:10002/'
+2020-07-07 18:11:36:453 [WebDriverAgent] WDA is currently not running. There is nothing to cache
+2020-07-07 18:11:36:453 [XCUITest] Trying to start WebDriverAgent 2 times with 10000ms interval
+2020-07-07 18:11:36:453 [XCUITest] These values can be customized by changing wdaStartupRetries/wdaStartupRetryInterval capabilities
+2020-07-07 18:11:36:454 [BaseDriver] Event 'wdaStartAttempted' logged at 1594145496454 (14:11:36 GMT-0400 (Eastern Daylight Time))
+2020-07-07 18:11:36:454 [WebDriverAgent] Launching WebDriverAgent on the device
+2020-07-07 18:11:36:455 [WebDriverAgent] Fetching dependencies
+2020-07-07 18:11:36:459 [WebDriverAgent] Dependencies up-to-date
+2020-07-07 18:11:36:460 [WebDriverAgent] Killing running processes 'xcodebuild.*D9B2EF26-6BFD-45D3-B1B6-CA243600FF10, D9B2EF26-6BFD-45D3-B1B6-CA243600FF10.*XCTRunner, xctest.*D9B2EF26-6BFD-45D3-B1B6-CA243600FF10' for the device D9B2EF26-6BFD-45D3-B1B6-CA243600FF10...
+2020-07-07 18:11:36:510 [WebDriverAgent] 'pgrep -if D9B2EF26-6BFD-45D3-B1B6-CA243600FF10.*XCTRunner' didn't detect any matching processes. Return code: 1
+2020-07-07 18:11:36:518 [WebDriverAgent] 'pgrep -if xctest.*D9B2EF26-6BFD-45D3-B1B6-CA243600FF10' didn't detect any matching processes. Return code: 1
+2020-07-07 18:11:36:628 [WebDriverAgent] Beginning test with command 'xcodebuild build-for-testing test-without-building -project /usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner -destination id=D9B2EF26-6BFD-45D3-B1B6-CA243600FF10 IPHONEOS_DEPLOYMENT_TARGET=13.5 GCC_TREAT_WARNINGS_AS_ERRORS=0 COMPILER_INDEX_STORE_ENABLE=NO' in directory '/usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent'
+2020-07-07 18:11:36:629 [WebDriverAgent] Output from xcodebuild will only be logged if any errors are present there. To change this, use 'showXcodeLog' desired capability
+2020-07-07 18:11:37:847 [WebDriverAgent] Waiting up to 60000ms for WebDriverAgent to start
+2020-07-07 18:11:37:852 [WD Proxy] Matched '/status' to command name 'getStatus'
+2020-07-07 18:11:37:853 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:10002/status] with no body
+2020-07-07 18:11:37:857 [WD Proxy] Got response with unknown status: {"errno":-61,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":10002}
+2020-07-07 18:11:38:859 [WD Proxy] Matched '/status' to command name 'getStatus'
+2020-07-07 18:11:38:859 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:10002/status] with no body
+2020-07-07 18:11:38:862 [WD Proxy] Got response with unknown status: {"errno":-61,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":10002}
+2020-07-07 18:11:39:863 [WD Proxy] Matched '/status' to command name 'getStatus'
+2020-07-07 18:11:39:863 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:10002/status] with no body
+2020-07-07 18:11:39:865 [WD Proxy] Got response with unknown status: {"errno":-61,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":10002}
+2020-07-07 18:11:40:866 [WD Proxy] Matched '/status' to command name 'getStatus'
+2020-07-07 18:11:40:866 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:10002/status] with no body
+2020-07-07 18:11:40:868 [WD Proxy] Got response with unknown status: {"errno":-61,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":10002}
+2020-07-07 18:11:41:118 [WebDriverAgent] Log file for xcodebuild test: /Users/bobit/Library/Developer/Xcode/DerivedData/WebDriverAgent-ciegwgvxzxdrqthilmrmczmqvrgu/Logs/Test/Test-WebDriverAgentRunner-2020.07.07_14-11-39--0400.xcresult/Staging/2_Test/Diagnostics/WebDriverAgentRunner-604A4CC7-3D71-4EC5-B1CE-81312868DC8E/WebDriverAgentRunner-8B66C3D2-98D7-41EF-81CB-92AAC178C7EF/Session-WebDriverAgentRunner-2020-07-07_141141-ehxPpE.log
+2020-07-07 18:11:41:869 [WD Proxy] Matched '/status' to command name 'getStatus'
+2020-07-07 18:11:41:869 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:10002/status] with no body
+2020-07-07 18:11:41:871 [WD Proxy] Got response with unknown status: {"errno":-61,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":10002}
+2020-07-07 18:11:42:873 [WD Proxy] Matched '/status' to command name 'getStatus'
+2020-07-07 18:11:42:873 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:10002/status] with no body
+2020-07-07 18:11:42:880 [WD Proxy] Got response with status 200: {
+2020-07-07 18:11:42:881 [WD Proxy]   "value" : {
+2020-07-07 18:11:42:881 [WD Proxy]     "message" : "WebDriverAgent is ready to accept commands",
+2020-07-07 18:11:42:881 [WD Proxy]     "state" : "success",
+2020-07-07 18:11:42:881 [WD Proxy]     "os" : {
+2020-07-07 18:11:42:881 [WD Proxy]       "name" : "iOS",
+2020-07-07 18:11:42:881 [WD Proxy]       "version" : "13.5",
+2020-07-07 18:11:42:881 [WD Proxy]       "sdkVersion" : "13.4"
+2020-07-07 18:11:42:881 [WD Proxy]     },
+2020-07-07 18:11:42:882 [WD Proxy]     "ios" : {
+2020-07-07 18:11:42:882 [WD Proxy]       "simulatorVersion" : "13.5",
+2020-07-07 18:11:42:882 [WD Proxy]       "ip" : "192.168.1.164"
+2020-07-07 18:11:42:882 [WD Proxy]     },
+2020-07-07 18:11:42:882 [WD Proxy]     "ready" : true,
+2020-07-07 18:11:42:882 [WD Proxy]     "build" : {
+2020-07-07 18:11:42:882 [WD Proxy]       "upgradedAt" : "1594144764000",
+2020-07-07 18:11:42:883 [WD Proxy]       "time" : "Jul  7 2020 14:00:29",
+2020-07-07 18:11:42:883 [WD Proxy]       "productBundleIdentifier" : "com.facebook.WebDriverAgentRunner"
+2020-07-07 18:11:42:883 [WD Proxy]     }
+2020-07-07 18:11:42:883 [WD Proxy]   },
+2020-07-07 18:11:42:883 [WD Proxy]   "sessionId" : "F0C528BF-22BD-4860-A8F9-436CD41349FF"
+2020-07-07 18:11:42:883 [WD Proxy] }
+2020-07-07 18:11:42:884 [WebDriverAgent] WebDriverAgent information:
+2020-07-07 18:11:42:884 [WebDriverAgent] {
+2020-07-07 18:11:42:884 [WebDriverAgent]   "message": "WebDriverAgent is ready to accept commands",
+2020-07-07 18:11:42:884 [WebDriverAgent]   "state": "success",
+2020-07-07 18:11:42:884 [WebDriverAgent]   "os": {
+2020-07-07 18:11:42:884 [WebDriverAgent]     "name": "iOS",
+2020-07-07 18:11:42:885 [WebDriverAgent]     "version": "13.5",
+2020-07-07 18:11:42:885 [WebDriverAgent]     "sdkVersion": "13.4"
+2020-07-07 18:11:42:885 [WebDriverAgent]   },
+2020-07-07 18:11:42:885 [WebDriverAgent]   "ios": {
+2020-07-07 18:11:42:885 [WebDriverAgent]     "simulatorVersion": "13.5",
+2020-07-07 18:11:42:885 [WebDriverAgent]     "ip": "192.168.1.164"
+2020-07-07 18:11:42:885 [WebDriverAgent]   },
+2020-07-07 18:11:42:885 [WebDriverAgent]   "ready": true,
+2020-07-07 18:11:42:886 [WebDriverAgent]   "build": {
+2020-07-07 18:11:42:886 [WebDriverAgent]     "upgradedAt": "1594144764000",
+2020-07-07 18:11:42:886 [WebDriverAgent]     "time": "Jul  7 2020 14:00:29",
+2020-07-07 18:11:42:886 [WebDriverAgent]     "productBundleIdentifier": "com.facebook.WebDriverAgentRunner"
+2020-07-07 18:11:42:886 [WebDriverAgent]   }
+2020-07-07 18:11:42:886 [WebDriverAgent] }
+2020-07-07 18:11:42:887 [WebDriverAgent] WebDriverAgent successfully started after 6257ms
+2020-07-07 18:11:42:887 [BaseDriver] Event 'wdaSessionAttempted' logged at 1594145502887 (14:11:42 GMT-0400 (Eastern Daylight Time))
+2020-07-07 18:11:42:887 [XCUITest] Sending createSession command to WDA
+2020-07-07 18:11:42:889 [WD Proxy] Matched '/session' to command name 'createSession'
+2020-07-07 18:11:42:889 [WD Proxy] Proxying [POST /session] to [POST http://127.0.0.1:10002/session] with body: {"capabilities":{"firstMatch":[{"bundleId":"org.askomdch.SwagLabMobileApp","arguments":[],"environment":{},"eventloopIdleDelaySec":0,"shouldWaitForQuiescence":true,"shouldUseTestManagerForVisibilityDetection":false,"maxTypingFrequency":60,"shouldUseSingletonTestManager":true}],"alwaysMatch":{}}}
+2020-07-07 18:11:50:115 [Appium] Received SIGINT - shutting down
+2020-07-07 18:11:50:116 [Appium] There are no active sessions for cleanup

@@ -1,0 +1,12 @@
+com/qa/pages/SettingsPage.class
+com/qa/pages/LoginPage.class
+com/qa/pages/MenuPage.class
+com/qa/stepdef/LoginStepDef.class
+com/qa/stepdef/Hooks.class
+com/qa/runners/MyRunnerTest.class
+com/qa/pages/ProductsPage.class
+com/qa/stepdef/ProductStepDef.class
+com/qa/pages/BasePage$1.class
+com/qa/pages/BasePage.class
+com/qa/pages/ProductDetailsPage.class
+com/qa/pages/BasePage$2.class

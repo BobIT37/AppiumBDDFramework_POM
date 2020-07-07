@@ -1,0 +1,22 @@
+[Android_bob INFO ] 2020-07-07 12:32:16.355 ServerManager:21 - starting appium server
+[Android_bob INFO ] 2020-07-07 12:32:17.752 ServerManager:30 - Appium server started
+[Android_bob INFO ] 2020-07-07 12:32:17.774 DriverManager:29 - initializing Appium driver
+[Android_bob INFO ] 2020-07-07 12:32:17.790 PropertyManager:18 - loading config properties
+[Android_bob INFO ] 2020-07-07 12:32:17.791 CapabilitiesManager:19 - getting capabilities
+[Android_bob INFO ] 2020-07-07 12:32:17.793 CapabilitiesManager:35 - appUrl is/Users/bobit/IdeaProjects/AppiumBDDFramework/src/test/resources/apps/Android.SauceLabs.Mobile.Sample.app.2.3.0.apk
+[Android_bob INFO ] 2020-07-07 12:32:30.210 DriverManager:41 - Driver is initialized
+[Android_bob INFO ] 2020-07-07 12:32:32.399 BasePage:72 - login with invalidUsername
+[Android_bob INFO ] 2020-07-07 12:32:34.618 BasePage:72 - password is secret_sauce
+[Android_bob INFO ] 2020-07-07 12:32:35.847 BasePage:55 - press login button
+[Android_bob INFO ] 2020-07-07 12:32:38.156 BasePage:98 - error text is - Username and password do not match any user in this service.
+[Android_bob INFO ] 2020-07-07 12:32:40.023 VideoManager:35 - video path: Android_bob/Videos/Login with invalid user name.mp4
+[Android_bob INFO ] 2020-07-07 12:32:42.068 BasePage:72 - login with standard_user
+[Android_bob INFO ] 2020-07-07 12:32:43.973 BasePage:72 - password is invalidPassword
+[Android_bob INFO ] 2020-07-07 12:32:45.964 BasePage:55 - press login button
+[Android_bob INFO ] 2020-07-07 12:32:46.529 BasePage:98 - error text is - Username and password do not match any user in this service.
+[Android_bob INFO ] 2020-07-07 12:32:48.248 VideoManager:35 - video path: Android_bob/Videos/Login with invalid password.mp4
+[Android_bob INFO ] 2020-07-07 12:32:50.126 BasePage:72 - login with standard_user
+[Android_bob INFO ] 2020-07-07 12:32:51.982 BasePage:72 - password is secret_sauce
+[Android_bob INFO ] 2020-07-07 12:32:53.170 BasePage:55 - press login button
+[Android_bob INFO ] 2020-07-07 12:32:55.895 BasePage:98 - product page title is - PRODUCTS
+[Android_bob INFO ] 2020-07-07 12:32:57.734 VideoManager:35 - video path: Android_bob/Videos/Login with valid user name and password.mp4

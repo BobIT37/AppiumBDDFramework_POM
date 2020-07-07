@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="31ece28b-a6c6-4430-9919-f616f7fbefda" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1eIIJ2eyCPldp1b1x8tmxZtIZGH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/apps" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/apps" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/apps" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MyRunnerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AppiumBDDFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qa.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qa.runners" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.runners.MyRunnerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MyRunnerTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="31ece28b-a6c6-4430-9919-f616f7fbefda" name="Default Changelist" comment="" />
+      <created>1594002604542</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594002604542</updated>
+      <workItem from="1594002607381" duration="1587000" />
+      <workItem from="1594004356771" duration="4804000" />
+      <workItem from="1594042348369" duration="124000" />
+      <workItem from="1594042486322" duration="11000" />
+      <workItem from="1594042513968" duration="59000" />
+      <workItem from="1594042576103" duration="3653000" />
+      <workItem from="1594056033066" duration="20361000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1646" height="392" key="GridCell.Tab.0.bottom" timestamp="1594143012510">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state width="1646" height="392" key="GridCell.Tab.0.bottom/0.23.1680.973@0.23.1680.973" timestamp="1594143012510" />
+    <state width="1646" height="392" key="GridCell.Tab.0.center" timestamp="1594143012509">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state width="1646" height="392" key="GridCell.Tab.0.center/0.23.1680.973@0.23.1680.973" timestamp="1594143012509" />
+    <state width="1646" height="392" key="GridCell.Tab.0.left" timestamp="1594143012508">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state width="1646" height="392" key="GridCell.Tab.0.left/0.23.1680.973@0.23.1680.973" timestamp="1594143012508" />
+    <state width="1646" height="392" key="GridCell.Tab.0.right" timestamp="1594143012509">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state width="1646" height="392" key="GridCell.Tab.0.right/0.23.1680.973@0.23.1680.973" timestamp="1594143012509" />
+    <state x="378" y="170" key="Maven.ArtifactSearchDialog" timestamp="1594004384994">
+      <screen x="0" y="23" width="1680" height="973" />
+    </state>
+    <state x="378" y="170" key="Maven.ArtifactSearchDialog/0.23.1680.973@0.23.1680.973" timestamp="1594004384994" />
+  </component>
+</project>
